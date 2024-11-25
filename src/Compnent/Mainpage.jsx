@@ -91,12 +91,7 @@ function Mainpage() {
           </div>
         )}
     
-        {!result &&    <div className="flex items-center justify-center flex-col  absolute left-0 right-0 top-0 bottom-0"> 
-     
-         <h1 className="text-3xl bg-gradient-to-r from-blue-600 via-purple-600 to-orange-700 inline-block text-transparent bg-clip-text font-semibold">Hello , User</h1>
-         <h1 className="text-3xl bg-gradient-to-r from-blue-600 via-purple-600 to-orange-700 inline-block text-transparent bg-clip-text font-semibold">What can I help with?
-         </h1>
-         </div>}
+        
       </div>
 
       <div className="w-full bg-white flex items-center p-4 border-t border-gray-300 sticky bottom-0">
